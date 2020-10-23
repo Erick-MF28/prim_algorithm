@@ -28,9 +28,9 @@ Fin
 ## Características:
 Este algoritmo tiene datos de entrada en archivos CSV de la siguiente manera: 
 
-nodo, nodo, peso
-nodo, nodo, peso
-.....
+nodo, nodo, peso<br/>
+nodo, nodo, peso<br/>
+.....<br/>
 
 Utilizo la biblioteca [Networkx](http://https://networkx.org/documentation/stable/index.html "Networkx") para una visualización final del árbol.
 Es importante hacer notar que editando el código es posible crear visualizaciones dinámicas. 
