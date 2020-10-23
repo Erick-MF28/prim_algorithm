@@ -39,17 +39,17 @@ Es importante hacer notar que editando el código es posible crear visualizacion
 
 Grafo
 
-1, 2, 2
-1, 3, 3
-1, 4, 3
-2, 3, 4
-2, 5, 3
-3, 4, 5
-3, 5, 1
-3, 6, 6
-4, 6, 7
-5, 6, 8
-6, 7, 9
+1, 2, 2<br/>
+1, 3, 3<br/>
+1, 4, 3<br/>
+2, 3, 4<br/>
+2, 5, 3<br/>
+3, 4, 5<br/>
+3, 5, 1<br/>
+3, 6, 6<br/>
+4, 6, 7<br/>
+5, 6, 8<br/>
+6, 7, 9<br/>
 
 Resultado
 
