@@ -35,7 +35,7 @@ nodo, nodo, peso
 Utilizo la biblioteca [Networkx](http://https://networkx.org/documentation/stable/index.html "Networkx") para una visualización final del árbol.
 Es importante hacer notar que editando el código es posible crear visualizaciones dinámicas. 
 
-## Ejemplo:
+## Ejemplo 1:
 
 Grafo
 
@@ -54,3 +54,13 @@ Grafo
 Resultado
 
 ![](https://media.giphy.com/media/b3FtsxwlUBEtGWHHj9/giphy.gif)
+
+## Ejercicio:
+
+En el archivo prueba.csv esta contenido un grafo con 26 vertices y mas de 200 arcos con el cual puedes probar el algoritmo
+
+![](https://media.giphy.com/media/8tIJmjgnyEvOZ1e0fa/giphy.gif)
+
+
+
+
