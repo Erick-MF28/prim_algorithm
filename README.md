@@ -6,21 +6,21 @@ Este repositorio contiene una implementación del algoritmo de Prim en lenguaje 
 
 Como es bien conocido el algoritmo de Prim es un procedimiento para encontrar el árbol extendido de costo mínimo de un grafo. Y al igual que el algoritmo de Kruskal es un algoritmo voraz con la particularidad de que no requiere una subrutina que compruebe que no se están generando ciclos, ya que implícitamente lo hace.
 
-El procedimiento simplificado es el siguiente:
+El procedimiento simplificado es el siguiente:<br/>
 
-Sea un grafo no dirigido ponderado G = {V, E} 
-donde V es el conjunto de vértices y E el conjunto de arcos.
+Sea un grafo no dirigido ponderado G = {V, E}<br/> 
+donde V es el conjunto de vértices y E el conjunto de arcos.<br/>
 
 entonces:
 
-1.- Elegimos un vértice de V al azar (inicio)
-2.- Lo agregamos al conjunto TV (vértices del árbol) y lo borramos de V
+1.- Elegimos un vértice de V al azar (inicio)<br/>
+2.- Lo agregamos al conjunto TV (vértices del árbol) y lo borramos de V<br/>
 
-mientras V no sea vacío:
+mientras V no sea vacío:<br/>
 {
-Evaluamos todos los nodos que inciden en los vértices de TV y que no se encuentre en T.
+Evaluamos todos los nodos que inciden en los vértices de TV y que no se encuentre en T.<br/>
 
-Elegimos el del menor peso, lo agregamos a T y el vértice nuevo a TV
+Elegimos el del menor peso, lo agregamos a T y el vértice nuevo a TV<br/>
 }
 
 Fin
