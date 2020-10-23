@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 from timeit import default_timer
 
 itime= default_timer()
-reader = csv.reader(open('C:\\Users\\Erick Martinez\\Documents\\test.csv')) 
+reader = csv.reader(open('file.csv')) # Entrada de archivo en formato CSV
 
-G = {} #grafo importante que la numeracion de los nodos empiece en 1
+G = {} #En el grafo importante que la numeracion de los nodos empiece en 1
  
 for row in reader: 
     key = row[0] 
@@ -51,6 +51,7 @@ for key in G.keys():
     for destino, peso in G[key]:
         if destino not in V:
             V.append(destino)
+      
 #Dibujar Grafo
 grafo=nx.DiGraph()
 grafo.add_weighted_edges_from(E)
@@ -64,6 +65,7 @@ for i in range(len(grafo.edges())):
     colorin.append("#A0CBE2")
             
 #Mientras sigan habiendo vertices en V se ejecuta el codigo
+
 nodos=(len(V))
 z=1           
 while len(V)>1:
