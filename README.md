@@ -20,7 +20,7 @@ mientras V no sea vacío:<br/>
 {
 Evaluamos todos los nodos que inciden en los vértices de TV y que no se encuentre en T.<br/>
 
-Elegimos el del menor peso, lo agregamos a T y el vértice nuevo a TV<br/>
+Elegimos el del menor peso, lo agregamos a T y el vértice nuevo a TV borrandolo de V<br/>
 }
 
 Fin
