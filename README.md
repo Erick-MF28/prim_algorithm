@@ -35,7 +35,7 @@ nodo, nodo, peso
 Utilizo la biblioteca [Networkx](http://https://networkx.org/documentation/stable/index.html "Networkx") para una visualización final del árbol.
 Es importante hacer notar que editando el código es posible crear visualizaciones dinámicas. 
 
-## Ejemplo 1:
+## Ejemplo:
 
 Grafo
 
