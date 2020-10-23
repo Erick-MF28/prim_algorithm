@@ -1,2 +1,2 @@
-#Algoritmo de Prim / Python
+# Algoritmo de Prim / Python
 
